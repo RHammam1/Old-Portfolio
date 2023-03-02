@@ -5,6 +5,7 @@ import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
 import chibi from '../public/chibi.png';
 import design from '../public/design.png';
+import design2 from '../public/design2.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import web1 from "../public/web1.png";
@@ -13,6 +14,7 @@ import web3 from "../public/web3.png";
 import React from "react";
 import Typewriter from 'typewriter-effect';
 import NavBar from '../components/NavBar';
+import Link from 'next/link';
 
 
 
@@ -62,8 +64,12 @@ export default function TypingEffect() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-20 py-3 text-gray-900' >
-            <AiFillGithub />
+            <a href='https://github.com/ramy523'>
+            <AiFillGithub  /> 
+            </a>
+            <a href='https://www.linkedin.com/in/ramy-hammam5/'>
             <AiFillLinkedin />
+            </a>
           </div>
 
           <div className='relative mx-auto  w-80 h-50 mt-20  md:h-96 md:w-96' style={{ marginTop:  '-20px' }}>
@@ -71,58 +77,48 @@ export default function TypingEffect() {
           </div>
           </section>
 
-
-          <section
-          id = "about me">
+          <div id="about me">
+          <section>
             <div style={{ marginTop: '0px', marginBottom: '60px' }}>
-              <h3 className='text-3xl  text-gray-800 font-medium flex justify-center items-center"'>About Me:</h3>
+              <h3 className='text-3xl py-10  text-gray-800 font-medium flex justify-center items-center"'>About Me:</h3>
               <h1 className='text-md   text-gray-800  text-center items-center md:text-x max-w-xl mx-auto  "'>
               Meet Ramy, a senior attending Hunter College for Computer Science. With a passion for improving their iOS and web development skills, they are constantly seeking new challenges and opportunities to hone their craft. In addition to their expertise in software development, Ramy is also deeply interested in the information technology field, always staying up-to-date with the latest trends and innovations. With a strong work ethic and a commitment to lifelong learning, Ramy is well-positioned for a successful career in the tech industry.
               </h1>
             </div>
             </section>
+            </div>
 
             <section
-            id = "proejcts">
-            <div className='lg:max-[1]: gap-10'>
+            id = "projects">
+            <div className='py-10 lg:max-[1]: gap-10'>
               <div style={{backgroundColor: "grey" ,maxWidth: '50%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
               <div className="flex justify-center items-center">
              <Image src={design} width={100} height={100}></Image>
               </div>
-                <h3 className='text-lg font-medium pt-8 pb-2'>Information Technology</h3>
+                <h3 className='text-lg font-medium pt-8 pb-2 text-4xl' style={{ textShadow: '2px 2px 62x ' }}>CopWatchNYC</h3>
                 <p className='py-2'>
-                  Creating Robust applications suited for your needs using swift.
+                Copwatchnyc is a mobile application that allows users to submit reports of police presence in real-time, which are then displayed on a live updating map. The app aims to provide transparency and accountability in law enforcement by giving the public a tool to monitor police activity in their neighborhoods.
                   </p>
-                  <h4 className='py-4 text-blue-500'> Development tools I use</h4>
-                  <p className="text-gray-800 py-1" >Figma</p>
-                  <p className="text-gray-800 py-1" >Jira</p> 
-                  <p className="text-gray-800 py-1" >Git</p>
+                  <h4 className='py-4 text-black'> Development tools I use</h4>
+                  <p className="text-gray-800 text-2xl py-1" >Swift</p>
+                  <p className="text-gray-800 py-1 text-2xl" >Xcode</p> 
+                  <p className="text-gray-800 py-1 text-2xl " >Git</p>
+                  <p className="text-white py-1 text-2xl " > <Link href="https://github.com/Hunter-Capstone-Group-2/Police-Track">Repository</Link> </p>
               </div>
+             
               <div style={{backgroundColor: "grey" ,maxWidth: '50%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <div className="flex justify-center items-center">
-             <Image src={design} width={100} height={100}></Image>
+             <Image src={design2} width={100} height={100}></Image>
               </div>
-                <h3 className='text-lg font-medium pt-8 pb-2'>iOS Development</h3>
+                <h3 className='text-lg font-medium pt-8 pb-2 text-4xl' style={{ textShadow: '2px 2px 62x ' }}> Portfolio Site</h3>
                 <p className='py-2'>
-                  Creating Robust applications suited for your needs using swift.
+                This website was created using Next.js, a popular React-based framework for building server-side rendered (SSR) and statically generated (SSG) websites, and Tailwind CSS, a highly customizable CSS framework that provides a set of pre-defined utility classes for quickly building responsive UI components.
                   </p>
-                  <h4 className='py-4 text-blue-500'> Development tools I use</h4>
-                  <p className="text-gray-800 py-1" >Figma</p>
-                  <p className="text-gray-800 py-1" >Jira</p> 
-                  <p className="text-gray-800 py-1" >Git</p>
-              </div>
-              <div style={{backgroundColor: "grey" ,maxWidth: '50%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <div className="flex justify-center items-center">
-             <Image src={design} width={100} height={100}></Image>
-              </div>
-                <h3 className='text-lg font-medium pt-8 pb-2'> Web Development</h3>
-                <p className='py-2'>
-                  Creating Robust applications suited for your needs using swift.
-                  </p>
-                  <h4 className='py-4 text-blue-500'> Development tools I use</h4>
-                  <p className="text-gray-800 py-1" >Figma</p>
-                  <p className="text-gray-800 py-1" >Jira</p> 
-                  <p className="text-gray-800 py-1" >Git</p>
+                  <h4 className='py-4 text-black'> Development tools I use</h4>
+                  <p className="text-gray-800 py-1" >VSCode</p>
+                  <p className="text-gray-800 py-1" >Next.js</p> 
+                  <p className="text-gray-800 py-1" >TailwindCSS</p>
+                  <p className="text-white py-1 text-2xl " > <Link href="https://github.com/ramy523/PortfolioSite">Repository</Link> </p>
               </div>         
             </div>
             </section>
