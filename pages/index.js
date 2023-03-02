@@ -27,7 +27,7 @@ export default function TypingEffect() {
 
 
       <main className='bg-gray-500 px-10 md:px-20 lg:px-40 style.'>
-        <section className='min-h-screen'>
+        <section>
           
       
           <div className='text-center p-10'>
@@ -69,9 +69,9 @@ export default function TypingEffect() {
           </section>
 
 
-          <section >
-            <div>
-              <h3 className='text-3xl  text-gray-800 font-medium flex justify-center items-center"' style={{marginTop: '-500px', display:'flex'}}>About Me:</h3>
+          <section>
+            <div style={{ marginTop: '0px', marginBottom: '60px' }}>
+              <h3 className='text-3xl  text-gray-800 font-medium flex justify-center items-center"' style={{display:'flex'}}>About Me:</h3>
               <h1 className='text-md   text-gray-800  text-center items-center md:text-x max-w-xl mx-auto  "'>
               Meet Ramy, a senior attending Hunter College for Computer Science. With a passion for improving their iOS and web development skills, they are constantly seeking new challenges and opportunities to hone their craft. In addition to their expertise in software development, Ramy is also deeply interested in the information technology field, always staying up-to-date with the latest trends and innovations. With a strong work ethic and a commitment to lifelong learning, Ramy is well-positioned for a successful career in the tech industry.
               </h1>
