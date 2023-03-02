@@ -14,8 +14,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       fontFamily: {
         burtons: "burtons",
+      },
+      minHeight: {
+        '80': '20rem'
       }
 
 

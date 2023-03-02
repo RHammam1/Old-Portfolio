@@ -12,26 +12,29 @@ import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import React from "react";
 import Typewriter from 'typewriter-effect';
+import NavBar from '../components/NavBar';
 
 
 
 
 export default function TypingEffect() {
   return (  
-    <div >
+    <div >  
       <Head>
         <title>Ramy Hammam Portfolio</title>
         <meta name="description" content="Gnerated by cre"></meta>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />   
       </Head>
-
-
-      <main className='bg-gray-500 px-10 md:px-20 lg:px-40 style.'>
-        <section>
-          
-      
+      <main className='scroll-smooth bg-gray-500 px-10 md:px-20 lg:px-40 style.'>
+      <NavBar />
+      <br>
+      </br>
+      <br>
+      </br>
+        <section
+        id = "title ">    
           <div className='text-center p-10'>
-            <h2 className='texttext-5xl py-2 text-gray-800 font-medium md:text-6xl' style={{ textShadow: '0px 4px 6px ' }}>Ramy Hammam</h2>
+            <h2 className=' texttext-5xl py-2 text-gray-800 font-medium md:text-6xl' style={{ textShadow: '0px 4px 6px ' }}>Ramy Hammam</h2>
             <div className='text-5xl py-2 text-gray-800 font-medium'>
             <Typewriter
             onInit={(typewriter) => {
@@ -69,13 +72,18 @@ export default function TypingEffect() {
           </section>
 
 
-          <section>
+          <section
+          id = "about me">
             <div style={{ marginTop: '0px', marginBottom: '60px' }}>
-              <h3 className='text-3xl  text-gray-800 font-medium flex justify-center items-center"' style={{display:'flex'}}>About Me:</h3>
+              <h3 className='text-3xl  text-gray-800 font-medium flex justify-center items-center"'>About Me:</h3>
               <h1 className='text-md   text-gray-800  text-center items-center md:text-x max-w-xl mx-auto  "'>
               Meet Ramy, a senior attending Hunter College for Computer Science. With a passion for improving their iOS and web development skills, they are constantly seeking new challenges and opportunities to hone their craft. In addition to their expertise in software development, Ramy is also deeply interested in the information technology field, always staying up-to-date with the latest trends and innovations. With a strong work ethic and a commitment to lifelong learning, Ramy is well-positioned for a successful career in the tech industry.
               </h1>
             </div>
+            </section>
+
+            <section
+            id = "proejcts">
             <div className='lg:max-[1]: gap-10'>
               <div style={{backgroundColor: "grey" ,maxWidth: '50%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
               <div className="flex justify-center items-center">
@@ -115,10 +123,9 @@ export default function TypingEffect() {
                   <p className="text-gray-800 py-1" >Figma</p>
                   <p className="text-gray-800 py-1" >Jira</p> 
                   <p className="text-gray-800 py-1" >Git</p>
-              </div>
+              </div>         
             </div>
-          </section>
-         
+            </section>
       </main>
     </div>
   );
