@@ -60,7 +60,7 @@ export default function TypingEffect() {
         </div>
                   
             <p className='text-md py-5 leading-8 text-gray-800 md:text-x max-w-xl mx-auto'>
-              Computer science student passionate about web development, iOS development, and information technology. Eager to learn and adapt my skillsets. If you wish to contact me, please do so using my Linkedin linked below.
+              Computer Science student passionate about web development, iOS development, and information technology. Eager to learn and adapt my skillsets. If you wish to contact me, please do so using my Linkedin linked below.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-20 py-3 text-gray-900' >
@@ -82,7 +82,7 @@ export default function TypingEffect() {
             <div style={{ marginTop: '0px', marginBottom: '60px' }}>
               <h3 className='text-3xl py-10  text-gray-800 font-medium flex justify-center items-center"'>About Me:</h3>
               <h1 className='text-md bold text-black text-center items-center md:text-x max-w-xl mx-auto  "'>
-              I'm Ramy!, a senior attending Hunter College for Computer Science. With a passion for improving my iOS and web development skills, I'm constantly seeking new challenges and opportunities to hone my craft. In addition to my expertise in software development, I'm also deeply interested in the information technology field. I find myself always staying up-to-date with the latest trends and innovations. With a strong work ethic and a commitment to lifelong learning, I believe I am well-positioned for a successful career in the tech industry.
+              Hello visitor, I'm Ramy! A senior attending Hunter College for Computer Science, with a passion for improving my iOS and web development skills. I'm constantly seeking new challenges and opportunities to hone my craft. In addition to my expertise in software development, I'm also deeply interested in the information technology field. I find myself always staying up-to-date with the latest trends and innovations. With a strong work ethic and a commitment to lifelong learning, I believe I am well-positioned for a successful career in the tech industry.
               </h1>
             </div>
             </section>
