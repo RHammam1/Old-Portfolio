@@ -80,7 +80,7 @@ export default function TypingEffect() {
           <div id="about me">
           <section>
             <div style={{ marginTop: '0px', marginBottom: '60px' }}>
-              <h3 className='text-3xl py-10  text-gray-800 font-medium flex justify-center items-center text-underline"'>About Me:</h3>
+              <h3 className='text-3xl py-10  text-gray-800 font-medium flex justify-center items-center"'>About Me:</h3>
               <h1 className='text-md bold text-black text-center items-center md:text-x max-w-xl mx-auto  "'>
               I'm Ramy!, a senior attending Hunter College for Computer Science. With a passion for improving my iOS and web development skills, they are constantly seeking new challenges and opportunities to hone their craft. In addition to their expertise in software development, Ramy is also deeply interested in the information technology field, always staying up-to-date with the latest trends and innovations. With a strong work ethic and a commitment to lifelong learning, Ramy is well-positioned for a successful career in the tech industry.
               </h1>
@@ -91,7 +91,7 @@ export default function TypingEffect() {
             <section
             id = "projects">
             <div className='py-10 lg:max-[1]: gap-10'>
-              <div style={{backgroundColor: "grey" ,maxWidth: '50%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
+              <div style={{backgroundColor: "grey" ,maxWidth: '100%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
               <div className="flex justify-center items-center">
              <Image src={design} width={100} height={100}></Image>
               </div>
@@ -106,7 +106,7 @@ export default function TypingEffect() {
                   <p className="text-white py-1 text-2xl " > <Link href="https://github.com/Hunter-Capstone-Group-2/Police-Track">Repository</Link> </p>
               </div>
              
-              <div style={{backgroundColor: "grey" ,maxWidth: '50%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+              <div style={{backgroundColor: "grey" ,maxWidth: '100%',margin: '0 auto', marginBottom: '20px'}} className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <div className="flex justify-center items-center">
              <Image src={design2} width={100} height={100}></Image>
               </div>
