@@ -52,11 +52,6 @@ function NavBar() {
                     Projects
                   </Link>
                 </li>
-                <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-gray-600  border-gray-900  md:hover:text-gray-600 md:hover:bg-transparent">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
-                    Resume
-                  </Link>
-                </li>           
               </ul>
             </div>
           </div>
