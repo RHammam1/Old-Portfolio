@@ -96,7 +96,7 @@ export default function TypingEffect() {
              <Image src={design} width={100} height={100}></Image>
               </div>
                 <h3 className='text-lg font-medium pt-8 pb-2 text-4xl' style={{ textShadow: '2px 2px 62x ' }}>CopWatchNYC</h3>
-                <p className='py-2'>
+                <p className='text-md py-5 leading-8 text-gray-800 md:text-x max-w-xl mx-auto'>
                 Copwatchnyc is a mobile application that allows users to submit reports of police presence in real-time, which are then displayed on a live updating map. The app aims to provide transparency and accountability in law enforcement by giving the public a tool to monitor police activity in their neighborhoods.
                   </p>
                   <h4 className='py-4 text-black'> Development tools I use</h4>
@@ -111,7 +111,7 @@ export default function TypingEffect() {
              <Image src={design2} width={100} height={100}></Image>
               </div>
                 <h3 className='text-lg font-medium pt-8 pb-2 text-4xl' style={{ textShadow: '2px 2px 62x ' }}> Portfolio Site</h3>
-                <p className='py-2'>
+                <p className='text-md py-5 leading-8 text-gray-800 md:text-x max-w-xl mx-auto'>
                 This website was created using Next.js, a popular React-based framework for building server-side rendered (SSR) and statically generated (SSG) websites, and Tailwind CSS, a highly customizable CSS framework that provides a set of pre-defined utility classes for quickly building responsive UI components.
                   </p>
                   <h4 className='py-4 text-black'> Development tools I use</h4>
