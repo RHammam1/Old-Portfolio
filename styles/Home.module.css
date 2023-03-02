@@ -6,6 +6,9 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.shadow {
+  text-shadow: 10px 10px 10px #f7f7f7;
+}
 
 .description {
   display: inherit;

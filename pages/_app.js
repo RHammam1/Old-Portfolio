@@ -1,13 +1,31 @@
 import '@/styles/globals.css'
+import React from 'react';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-function _app({ Component, pageProps }) {
+function _app() {
   return (
-   <div className="bg-blue-500">
-     <Component {...pageProps}/>
-   </div>
+    <div className="App">
+      <Typewriter
+  
+       onInit={(typewriter)=> {
+  
+       typewriter
+        
+       .typeString("GeeksForGeeks")
+         
+       .pauseFor(1000)
+       .deleteAll()
+       .typeString("Welcomes You")
+       .start();
+       }}
+       />
+    </div>
   );
- }
+}
+
+
+
+ 
